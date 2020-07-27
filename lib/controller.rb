@@ -12,4 +12,3 @@ class ApplicationController < Sinatra::Base
     Gossip.new.save
   end
 end
-
