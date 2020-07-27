@@ -1,0 +1,14 @@
+<html>
+<head>
+	<title>Éditer un potin</title>
+</head>
+<body>
+	<h1>Édite ton potin !</h1>
+	<p>Change les infos de ton potin via le formulaire ci-dessous</p>
+	<form action='/gossips/<%=id%>/edit/' method='POST'>
+		Saisi ici le nouveau nom :  <input type='text' name='gossip_author'/><br/>
+		Édite le potin : <input type='text' name='gossip_content'/><br/>
+	<input type='submit'/>
+	</form>
+</body>
+</html>
