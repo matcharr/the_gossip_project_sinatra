@@ -3,12 +3,14 @@
 require 'Gossip'
 class ApplicationController < Sinatra::Base
   get '/' do
-    erb :index
+    erb :index, locals: {gossips: Gossip.all}
   end
   get '/gossips/new/' do
     erb :new_gossip
   end
   post '/gossips/new/' do
-    Gossip.new.save
+    Gossip.new(params["gossip_author"], params["gossip_content"]).save
+    redirect '/'
   end
 end
+
