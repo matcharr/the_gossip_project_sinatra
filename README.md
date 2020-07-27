@@ -1,1 +1,1 @@
-# hello_world_sinatra
+# mini_jeu_POO
