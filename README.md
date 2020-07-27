@@ -1,1 +1,1 @@
-# mini_jeu_POO
+# the_gossip_project_sinatra
