@@ -1,4 +1,4 @@
-### the_gossip_project_sinatra
+# the_gossip_project_sinatra
 ## Projet de The Hacking Project
 Ce programme est la version améliorée de The_Gossip_Project qui consiste à créer ou modifier des potins
 ## Installer le programme
